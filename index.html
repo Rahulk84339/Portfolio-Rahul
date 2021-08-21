@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== ANIMATE ON SCROLL ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--==================== UNICONS ====================-->
     <link
       rel="stylesheet"
@@ -70,7 +72,7 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class="home section" id="home">
+      <section class="home section" id="home" data-aos="zoom-in" data-aos-duration="5000">
         <div class="home__container container grid">
           <div class="home__content grid">
             <div class="home__social">
@@ -152,7 +154,7 @@
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+      <section class="about section" id="about" data-aos="zoom-in" data-aos-duration="4000" data-aos-offset="400">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
 
@@ -202,7 +204,7 @@
       </section>
 
       <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills">
+      <section class="skills section" id="skills" data-aos="fade-right" data-aos-duration="4000" data-aos-offset="400">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My technical level</span>
 
@@ -382,7 +384,7 @@
       </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section">
+      <section class="qualification section" data-aos="zoom-in" data-aos-duration="4000" data-aos-offset="300">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 
@@ -508,7 +510,7 @@
       </section>
 
       <!--==================== SERVICES ====================-->
-      <section class="services section" id="services">
+      <section class="services section" id="services" data-aos="zoom-in" data-aos-duration="4000" data-aos-offset="400">
         <h2 class="section__title">Services</h2>
         <span class="section__subtitle">What i offer</span>
 
@@ -664,7 +666,7 @@
       </section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio">
+      <section class="portfolio section" id="portfolio" data-aos="zoom-in" data-aos-duration="4000" data-aos-offset="400">
         <h2 class="section__title">Portfolio</h2>
         <span class="section__subtitle">Most recent work</span>
 
@@ -730,7 +732,7 @@
       </section>
 
       <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section">
+      <section class="project section" data-aos="zoom-in" data-aos-duration="4000" data-aos-offset="400">
         <div class="project__bg">
           <div class="project__container container grid">
             <div class="project__data">
@@ -959,5 +961,10 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--==================== SCROLL ANIMATE JS ====================-->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
